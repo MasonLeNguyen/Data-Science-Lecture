@@ -1,0 +1,2 @@
+Nhược điểm của nearest neigbor là khi phóng quá lớn thì sẽ bị vỡ hình vì giá trị phóng chỉ phụ thuộc vào hoặc giá trị bên trái hoặc giá trị bên phải 
+Khi đó chúng ta sẽ dùng linear interpolation để kết hợp cả 2 giá trị bên trái và bên phải
