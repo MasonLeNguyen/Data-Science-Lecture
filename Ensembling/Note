@@ -1,1 +1,11 @@
+Hậu xử lý cho model khi dự đoán sai
+Cách 1: Enssemble
+Cách 2: Train model sequence2sequence
+Cách 3: Tạo Vocab => Searching => Matching
+Cách 4: Vocab => Loss
 
+Voting hiệu quả với các model có correlation thấp, và không thấy hiệu quả rõ rệt nếu correlation giữa các model tương đối cao
+
+Ranking average sử dụng khi 2 model cho kết quả prediction chênh lệch nhau lớn
+
+Nhược điểm của ensemble tốn chi phí tính toán và chạy lâu hơn
